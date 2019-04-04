@@ -23,8 +23,8 @@
 	bl_info = {
 		"name": "Material Library",
 		"author": "Mackraken (mackraken2023@hotmail.com)",
-		"version": (0, 5, 61),
-		"blender": (2, 7, 2),
+		"version": (0, 5, 62),
+		"blender": (2, 80, 0),
 		"api": 60995,
 		"location": "Properties > Material",
 		"description": "Material Library VX",
@@ -33,7 +33,7 @@
 		"tracker_url": "",
 		"category": "System"}
 
-### MATLIB 5.6.1.
+### MATLIB 5.6.2
 	
 Installation:
 - AVOID USING THE INSTALL ADDON BUTTON
@@ -46,7 +46,7 @@ Example: D:\Blender\2.8\scripts\addon\
 
 
 Updates:
-v 0.5.61
+v 0.5.62
 - Libraries aren't read on each draw call, only on startup or when added. This fixes potential crashes and is less stressful, but when a library is deleted blender should be restarted.
 - Moved the addon from "System" category to "Materials"
 
