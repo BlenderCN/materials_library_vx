@@ -1,3 +1,4 @@
+# 插件已经在blender 2.8可用
 
 # materials_library_vx for blender2.8
 
